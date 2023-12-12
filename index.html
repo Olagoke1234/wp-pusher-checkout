@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>wp-pusher-checkout</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="logo">
+          <img src="./assets/wp pusher.png" alt="Logo of wp pusher" />
+        </div>
+        <div id="links">
+          <a href="#">Download</a>
+          <a href="#">Learn more</a>
+          <a href="#">Pricing</a>
+          <a href="#">Help</a>
+          <button><a href="#" id="link_btn">Account</a></button>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div id="check_out_space">
+        <div id="form">
+          <h1>Checkout</h1>
+          <br /><br /><br />
+          <p><span class="numbering">1</span> Your Basic Information</p>
+          <br />
+          <div id="fullName">
+            <div id="firstName">
+              <label for="first_name">First Name</label>
+              <br />
+              <input type="text" id="first_name" placeholder="Jane" />
+            </div>
+            <div id="lastName">
+              <label for="last_name">Last Name</label>
+              <br />
+              <input type="text" id="last_name" placeholder="Doe" />
+            </div>
+          </div>
+          <br />
+          <div id="Email">
+            <label for="email">E-mail</label>
+            <br />
+            <input type="email" id="email" placeholder="janedoe@email.com" />
+          </div>
+          <br />
+          <br />
+          <p><span class="numbering">2</span>Your Payment Information</p>
+          <br />
+          <div id="creditCard">
+            <label for="credit_card">Credit Card</label>
+            <br />
+            <input type="number" id="credit_card" placeholder="Card Number" />
+          </div>
+          <br />
+          <br />
+          <button id="buy_btn">Buy WP Pusher</button>
+          <br />
+          <br />
+          <p id="footNote">
+            <span class="numbering">?</span
+            ><span style="font-weight: bold; color: black">Need any Help?</span>
+            Don't hesitate to <a href="#">contact!</a> support
+          </p>
+          <br />
+          <p id="stripe">powered by stripe</p>
+        </div>
+        <div id="subscription">
+          <h3>Freelancer</h3>
+          <br />
+          <p id="price">
+            <sup id="dollar">$</sup> 99 <sub id="year"> /year</sub>
+          </p>
+          <br />
+          <p id="renew">Automatically renews after 1 year</p>
+          <br />
+          <br />
+          <p class="advantages">
+            <span class="check"> &#10003;</span> Use on 5 client websites
+          </p>
+          <p class="advantages">
+            <span class="check"> &#10003;</span> Private repositories
+          </p>
+          <p class="advantages">
+            <span class="check"> &#10003;</span> Email support
+          </p>
+          <br />
+          <p id="need_20_clients">Need 20 client sites</p>
+          <p id="switch"><a href="#">Switch to the agency plan</a></p>
+          <br />
+          <br />
+          <hr />
+          <br />
+          <br />
+          <p id="FTP">
+            FTP is horrible to deal with.<br />
+            <span id="wp_pusher">WP Pusher</span> solves that issue,<br />and
+            the customer support is awesome!
+          </p>
+          <div id="author">
+            <img
+              src="./assets/kirk.png"
+              alt="Author's picture"
+              width="30"
+              height="30"
+              style="border-radius: 50%"
+            />
+            <p>Kirk Beard</p>
+          </div>
+        </div>
+      </div>
+      <p id="footer">
+        <span>&copy;</span>2018 WP Pusher IVS . <a href="#">Terms of Service</a>
+      </p>
+    </div>
+  </body>
+</html>

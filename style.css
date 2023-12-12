@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#container {
+  background-color: rgb(245, 248, 250);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 0.5px solid rgb(233, 229, 229);
+}
+
+#header #links a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+  color: rgb(73, 85, 99);
+}
+
+#link_btn {
+  padding: 6px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#check_out_space {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#form {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+}
+
+#form h1 {
+  color: rgb(97, 107, 117);
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#form p span {
+  color: rgb(17, 121, 191);
+}
+
+#form p .numbering {
+  margin-right: 5px;
+  border: 1px solid rgb(17, 121, 191);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+#need_help {
+  color: black;
+}
+
+#fullName {
+  display: flex;
+  justify-content: space-between;
+}
+
+#firstName {
+  margin-right: 10px;
+}
+
+#fullName input,
+#Email input,
+#creditCard input {
+  padding: 8px;
+  background-color: rgb(237, 239, 242);
+  border: none;
+}
+#email {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(237, 239, 242);
+  border: none;
+}
+
+#credit_card {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(237, 239, 242);
+  border: none;
+}
+
+#buy_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(3, 142, 125);
+  color: white;
+  border: none;
+}
+
+#footNote {
+  width: 200px;
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+#stripe {
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 12px;
+  background-color: rgb(174, 180, 188);
+}
+
+#footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  word-spacing: 5px;
+}
+
+#footer a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#subscription {
+  background-color: rgb(17, 121, 191);
+  padding: 40px;
+  color: white;
+}
+
+#price {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+#dollar {
+  font-size: 16px;
+}
+
+#year {
+  font-size: 16px;
+}
+
+#renew {
+  font-style: italic;
+  width: 140px;
+  font-size: 14px;
+}
+
+.advantages {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#need_20_clients {
+  font-size: 14px;
+}
+
+#switch {
+  font-size: 14px;
+}
+
+p .check {
+  margin-right: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subscription p a {
+  color: white;
+}
+
+#FTP {
+  font-size: 14px;
+}
+
+#wp_pusher {
+  font-weight: bold;
+}
+
+#author {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 20px;
+}
+
+#author p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+hr {
+  opacity: 0.3;
+}
